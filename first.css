@@ -1,0 +1,49 @@
+p {
+    color: green;
+}
+#first {
+    color: red;
+    background-color: aqua;
+}
+.second {
+    color: blue;
+}
+* {
+    color: yellow;
+}
+span {
+    display: block;
+    background-color: red;
+}
+div {
+    background-color: blue;
+    display: inline;
+}
+.inlineBlock{
+    display: inline-block;
+    width: 32%;
+    background-color: red;
+    /* height: 20px; */
+    font-size: 30px;
+    font-weight: bold;
+}
+.remove {
+    /* display: none; */
+    visibility: hidden;
+}
+
+section {
+    color: red;
+    border: 1px solid blue;
+    /* padding: 10px;
+    padding: 10px 15px 20px 25px; */
+    /* padding-top: 10px; */
+    /* padding: 10px 25px; short hand */
+    padding: 10px 15px 25px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border-radius: 50%;
+}

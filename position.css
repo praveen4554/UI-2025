@@ -1,0 +1,42 @@
+.hello {
+    position: relative;
+    top: 130px;
+    left: 150px;
+    z-index: 1;
+}
+.parent {
+    position: relative;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.opacity {
+   opacity: 0.5;
+   position: relative;
+   z-index: -1;
+}
+.overflow {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+.align {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px dashed green;
+}
+.verticalalign {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

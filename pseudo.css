@@ -1,0 +1,49 @@
+a:hover {
+    color: blue;
+}
+a {
+    color: red;
+}
+p:active {
+    color: red;
+}
+.input:focus-visible{
+    outline-color: green !important;
+}
+#test:focus-visible {
+    outline-color: red;
+}
+tr:first-child {
+    color: red;
+}
+tr:last-child {
+    color: blue;
+}
+tr:nth-child(odd) {
+    color: green;
+}
+tr:nth-child(even) {
+    color: orange;
+}
+tr:nth-child(3) {
+    color: black;
+}
+a:target{
+    color: green;
+}
+th::before {
+    content: 'hello';
+}
+td::after {
+    content: 'hello';
+}
+.overflow {
+    width: 500px;
+    height: 500px;
+}
+.overflow::first-letter {
+    color: red;
+}
+.overflow::first-line {
+    color: green;
+}

@@ -1,0 +1,33 @@
+
+.child {
+    border: 1px solid;
+    padding: 10px;
+    width: 150px;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    .parent {
+        flex-direction: column;
+        background-color: red;
+    }
+    .child4 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px){
+    .parent {
+        flex-direction: row;
+        background-color: blue;
+    }
+}
+@media only screen and (orientation: portrait) {
+    .child4 {
+        font-size: 30px;
+    }
+}
