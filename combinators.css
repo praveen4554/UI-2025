@@ -1,13 +1,13 @@
-/* div span {
+div span {
     color: red;
-} */
-/* div > span {
+} 
+div > span {
     color: green;
-} */
+} 
 
-/* div + span {
+div + span {
     color: blue;
-} */
+} 
 
 div ~ span {
     color: orange;
