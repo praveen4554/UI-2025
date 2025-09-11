@@ -32,9 +32,48 @@
              * git fetch
              * git merge origin/main
             */
-            for(var i =0;i<10;i++){
-
-            }
+           /**
+            * loops
+            * if -- else if -- else
+            * if(true) -- {} else if() --{} else -- {} -- single time
+            * for(var i=10;i<10;i++){}
+            * var i=0;while(i<10) { i++;}
+            * var i=10;
+            * do {
+            * i++;
+            * }while(i<10); //odd loop
+            * while(1){} -- infinite loop
+            * va
+            * switch(value) {
+            *   case 'value': sddkl break;
+            *    case 'value2': sdf break;
+            * default: casewf;
+            * }
+            * 
+            * Tasek
+            * Input box1    input box 2
+            *  box with values 1    other box 2 other box 3
+            * 4 5   6
+            * 7 8   9
+            * 0 + -
+            * / * %
+            * Input result
+           */
+          var a = 10;
+          var test = 'a';
+          switch(test) {
+    case 'a': a +=10;
+    case 'b': a+=20;break;
+    default: a+=30;
+        }
+console.log(a);
+function add() {
+    var a = document.getElementById('first').value;
+    var b = document.getElementById('second').value;
+   document.getElementById('result').value = parseInt(a)+parseInt(b);
+   document.getElementById('second').value = '';
+   document.getElementById('first').value = '';
+}
         </script>
     </head>
     <body> 
@@ -42,6 +81,10 @@
         console.log('test567');
     </script>
         <p>Javascript</p>
+        <input type="number" id="first" />
+        <input type="number" id="second"/>
+        <button onclick="add()">add</button>
+        <input type="text" id="result"/>
         <script type="text/javascript">
             console.log('test234');
         </script>
