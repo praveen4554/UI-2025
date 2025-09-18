@@ -1,0 +1,91 @@
+function add(a,b) {
+    return a +b ;
+}
+pre incremnt/decrement and post increment/decrement
+
+var a = 10;
+var i=0;
+var j = 0;
+a+i++ -- 10+0 = 10 -- i -1
+
+a+++j -- 10+1 = 11 j -1
+infix/prefix/postfix
+%
+*/
++-
+
+
+for(intializarion;CSSConditionRule;increment/decremet){
+
+}
+
+intialization
+while(condition){
+    increment/decrment;
+}
+
+odd loop
+intialization 
+do {
+
+}while(condition);
+while(1) {
+    //infinite loop
+}
+while(0){
+    // wont execute
+}
+
+for(var i=0;i<5;i++){
+    if(i === 3)
+        break;
+    console.log(i);
+}
+var a = 5;
+switch(a) {
+    case 5:
+        console.log('test');
+        break or return;
+    case 7:
+        console.log('test1');
+    case 10:
+        console.log('test10'); 
+    default:
+        console.log('test default');
+
+}
+
+let var const
+const - we can't reassign any new values
+let - we can't redeclare
+var - you can do anything
+
+const - let -- block scope
+var - functional scope
+
+global scope - 
+
+var a= 10;
+const b= 10;
+function printValues(){
+    for(var i=0;i<5;i++){
+        console.log('test')
+    }
+    console.log('value of i after loop',i);
+}
+
+//backescenario
+function printValues() {
+    var i;
+    for(i=0;i<5;i++){
+        console.log('test')
+    }
+    console.log('value of i after loop',i);
+}
+
+function printValues(){
+    for(let k=0;k<5;k++){
+        console.log('test')
+    }
+    console.log('value of i after loop',k);
+}
