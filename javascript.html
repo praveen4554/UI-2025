@@ -2,6 +2,11 @@
 <html>
     <head>
         <title> Javascript classes</title>
+        <style>
+            #firstnameerror{
+                display: none;
+            }
+        </style>
         <script type="text/javascript">
             console.log('test var, let, const');
             document.write('testlkdsjlfejslfjsljfm');
@@ -79,12 +84,27 @@ function add() {
     <body> 
         <script type="text/javascript">
         console.log('test567');
+        function toggle() {
+            if(document.getElementById('test').style.display === 'none')
+            document.getElementById('test').style.display ='block';
+            else
+             document.getElementById('test').style.display = 'none';
+        }
+        function firstName() {
+            console.log(document.getElementById('firstname').value);
+        }
     </script>
         <p>Javascript</p>
         <input type="number" id="first" />
         <input type="number" id="second"/>
         <button onclick="add()">add</button>
         <input type="text" id="result"/>
+        <div id="test">asdfscfsadfdgasg sadfasdff</div>
+        <button onclick="toggle()">Toggle</button>
+        <form>
+            <input id="firstname" value="" onblur="firstName()">
+            <p id="firstnameerror">first name error</p>
+        </form>
         <script type="text/javascript">
             console.log('test234');
         </script>
