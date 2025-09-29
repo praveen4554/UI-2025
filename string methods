@@ -1,0 +1,40 @@
+var name = 'anurag'
+name.toLowerCase() -- coverts to lower case
+name.toUpperCase() -- converts to upper case
+name.length -- returns length of a string
+var num = 9786543210
+num.toString().length -- converts to string and retuns length -- chaining operators
+name.charAt(number) -- reutnrs character position
+var firstName = 'anurag';
+var lastName = 'lakavathula';
+firstName.charAt(0).toUpperCase()+lastName.charAt(0).toUpperCase() -- AL
+
+ var offers = 'expired at 07.28.2025';
+offers.includes('expired') ? 'offer expired' : 'check coupons' -- ternary
+'offer expired'
+var valid = 'valid unti 10.10.2025';
+valid.includes('expired') ? 'offer expired' : 'check coupons'
+'check coupons'
+firstName
+'anurag'
+firstName.indexOf('r')
+3
+firstName.indexOf('rt')
+-1
+firstName.indexOf('')
+0
+firstName.indexOf('a')
+0
+firstName.lastIndexOf('a')
+4
+
+a.trim()
+'lksjdfljasf'
+a
+'      lksjdfljasf     '
+a.trimLeft()
+'lksjdfljasf     '
+a.trimRight()
+'      lksjdfljasf'
+a
+'      lksjdfljasf     '

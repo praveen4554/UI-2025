@@ -13,15 +13,28 @@
     
         function firstName() {
             const val = document.getElementById('firstname').value;
+            console.log(val);
             if(val === '')
                document.getElementById('firstnameerror').style.display = 'block';
             else
             document.getElementById('firstnameerror').style.display = 'none';
         }
+        function submitForm(event) {
+            event.preventDefault();
+            /**
+             * read firstname 
+             * read lastname
+             * firstName first character + last name firstcharacter
+             * show in result
+            */
+           document.getElementById('result').value = 'AL';
+        }
     </script>
-        <form>
-            <input id="firstname" value="" onblur="firstName()">
-            <p id="firstnameerror">first name error</p>
+        <form onsubmit="submitForm(event)">
+            <input id="firstname" value="">
+            <input id="lastname" value="">
+            <input id="result" value="">
+            <button type="submit">submit</button>
         </form>
     </body>
 </html>
