@@ -1,0 +1,11 @@
+Math.sqrt(2,2) -- 1.4...
+Math.floor(5.99) -- 5
+Math.ceil(5.1) -- 6
+math.round(5.6) -- 6
+Math.round(5.4) -- 5
+Math.random() -- returns value between 0 to 1
+23.5789.toFixed(2) -- 23.58
+Math.max(1,4,1,4,5) -- 5
+Math.min(1,2,-1) -- -1
+Math.pow(2,3) -- 8
+
