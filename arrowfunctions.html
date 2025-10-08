@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="firstNum" />
+        <input type="text" id="secondNum" />
+        <button onclick="add()">Add</button>
+        <p id="result"></p>
+        <script>
+            const add = () => {
+                document.getElementById('result').innerHTML = parseInt(document.getElementById('firstNum').value) - parseInt(document.getElementById('secondNum').value);
+            }
+            var a = [1,2,3,4,5];
+            // for(var i=0;i<a.length;i++)
+            //    console.log(a[i]);
+            a.forEach((val,index) => {
+                console.log('value',val);
+                console.log('index',index);
+            });
+            var b = a.filter((val) => { if(val >= 3) return val;});
+            var c = a.map((val) => { return val+1});
+            var c = a.map((val) => val+1);
+        </script>
+    </body>
+</html>

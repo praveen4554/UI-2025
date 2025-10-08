@@ -1,0 +1,11 @@
+array -- collection of elements with same or different types
+push -- will add element at the end
+pop -- will delete element at the end
+unshift -- will add element at begining
+shift -- will delete element at begining
+includes -- will check in array whether element present or not if it is present return true
+join -- will convert array into string based on deliberator
+reverse -- will reverse the elements -- call by reference
+forEach -- will walk through array but not returns any value
+map -- will return all values if condition is not matching it returns undefined (array length doesn't change)
+filter -- will filter values based on condition (array length will change)
