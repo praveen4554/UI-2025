@@ -1,0 +1,152 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Domino's Pizza</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #006491;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar h1 {
+      font-size: 24px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://images.dominos.com/media/dominos/web/homepage/2022/home-heros/Desktop_Hero_2.jpg') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    /* Product Section */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 5px;
+    }
+
+    .card p {
+      padding: 0 15px 15px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card button {
+      margin-bottom: 15px;
+      padding: 10px 20px;
+      background-color: #e31837;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .card button:hover {
+      background-color: #c4162b;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>Domino's</h1>
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Deals</a></li>
+      <li><a href="#">Order Now</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="hero">
+    <h2>Hot & Fresh Pizza Delivered To You</h2>
+  </div>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://images.dominos.com/is/image/dominos/Chicken_Tikka?fmt=png-alpha" alt="Pizza">
+      <h3>Chicken Tikka Pizza</h3>
+      <p>Spicy grilled chicken with cheese and herbs.</p>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.dominos.com/is/image/dominos/Margherita?fmt=png-alpha" alt="Pizza">
+      <h3>Margherita</h3>
+      <p>Classic delight with 100% real mozzarella cheese.</p>
+      <button>Order Now</button>
+    </div>
+    <div class="card">
+      <img src="https://images.dominos.com/is/image/dominos/Farmhouse?fmt=png-alpha" alt="Pizza">
+      <h3>Farmhouse</h3>
+      <p>A pizza loaded with fresh veggies and cheese.</p>
+      <button>Order Now</button>
+    </div>
+  </div>
+
+</body>
+</html>

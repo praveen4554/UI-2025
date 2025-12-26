@@ -1,0 +1,12 @@
+ div span {
+    color: red;
+ }
+ div > Span {
+    color: green;
+ }
+ div + span {
+    color: blue;
+ }
+ div ~ span {
+    color:orange;
+ }

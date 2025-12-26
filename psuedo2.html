@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="pseudo-selectors-demo.css">
+</head>
+<body>
+
+  <h2>Links</h2>
+  <a href="https://example.com" target="_blank">Unvisited Link</a><br>
+  <a href="https://example.com/visited" target="_blank">Visited Link</a>
+
+  <h2>Form</h2>
+  <form>
+    <input type="text" required placeholder="Required field"><br>
+    <input type="text" disabled value="Disabled input">
+  </form>
+
+  <h2>Only Child</h2>
+  <div class="container">
+    <p>I am the only child</p>
+  </div>
+  <div class="container">
+    <p>Child 1</p>
+    <p>Child 2</p>
+  </div>
+
+  <h2>Target Example</h2>
+  <a href="#section1">Go to Section 1</a>
+  <div id="section1" class="target-box">
+    This section is the target.
+  </div>
+
+  <h2>Pseudo-elements</h2>
+  <p class="notice">This is an important notice.</p>
+
+</body>
+</html>

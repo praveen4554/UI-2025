@@ -1,0 +1,44 @@
+ 
+input:disabled {
+  background-color: #eee;
+  color: #999;
+  border: 1px solid #ccc;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: purple;
+}
+
+input:required {
+  border: 2px solid red;
+}
+
+
+.container p:only-child {
+  background-color: #f0f8ff;
+  padding: 10px;
+  border: 1px solid #0af;
+}
+
+
+.target-box:target {
+  border: 2px dashed green;
+  background-color: #dfd;
+}
+
+
+.notice::before {
+  content: "⚠️ ";
+  color: orange;
+}
+
+.notice::after {
+  content: " ✔️";
+  color: green;
+}
